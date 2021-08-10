@@ -10,6 +10,7 @@ public class Lab1_Bai1 {
              HovaTen = sc.nextLine();
              diem = sc.nextDouble();
         System.out.printf("%s %f ",HovaTen,diem);
+        System.out.println(("over"));
     }
 }
 
