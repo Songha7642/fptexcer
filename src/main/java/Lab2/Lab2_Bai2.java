@@ -1,3 +1,6 @@
+
+// Viết chương trình cho phép giải phương trình bậc nhất trong đó các hệ số a và b nhập từ bàn phím
+
 package Lab2;
 
 import java.util.Scanner;
@@ -5,6 +8,7 @@ import java.util.Scanner;
 public class Lab2_Bai2 {
     public static void main (String []args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("Nhap a, b va c: ");
         double a= in.nextDouble(), b=in.nextDouble(), c=in.nextDouble();
         double delta;
         if(a!=0){
@@ -25,7 +29,7 @@ public class Lab2_Bai2 {
                 if (c == 0) {
                     System.out.println("x=0");
                 } else {
-                    System.out.printf("%.3f", (-c / b));
+                    System.out.printf("x = %.3f", (-c / b));
                 }
             }
         }

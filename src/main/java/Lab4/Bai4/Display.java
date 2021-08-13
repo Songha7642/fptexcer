@@ -1,3 +1,8 @@
+
+// Nâng cấp lớp SanPham bằng cách khai báo các trường dữ liệu với đặc tả truy xuất là private
+// để hạn chế truy xuất trực tiếp đến các trường này sau đó bổ sung các phương thức getter và setter
+// để đọc ghi dữ liệu các trường.
+
 package Lab4.Bai4;
 
 import Lab4.Bai3.SanPham;

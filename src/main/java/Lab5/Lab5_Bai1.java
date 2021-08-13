@@ -1,3 +1,6 @@
+
+// Nhập danh sách số thực với số lượng tùy ý từ bàn phím sau đó xuất danh sách vừa nhập và tổng của nó.
+
 package Lab5;
 
 import java.util.ArrayList;
@@ -8,7 +11,7 @@ public class Lab5_Bai1 {
         double sum=0;
         ArrayList <Double> a = new ArrayList <>();
         Scanner in = new Scanner(System.in);
-        System.out.print( "Nhap so phan tu: ");
+        System.out.print( "Nhap tong so phan tu: ");
         int n = in.nextInt();
         System.out.print( "Nhap cac phan tu: ");
         for(int i =0; i<n;i++) {
@@ -21,7 +24,7 @@ public class Lab5_Bai1 {
         for (Double x : a) {
              sum += x;
         }
-        System.out.print("\n" +sum);
+        System.out.print("\n Sum = " +sum);
     }
 
 }

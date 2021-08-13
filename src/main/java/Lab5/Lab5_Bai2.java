@@ -1,3 +1,12 @@
+
+// Viết chương trình thực hiện các chức năng sau
+//  1.	Nhập danh sách họ và tên
+//  2.	Xuất danh sách vừa nhập
+//  3.	Xuất danh sách ngẫu nhiên
+//  4.	Sắp xếp giảm dần và xuất danh sách
+//  5.	Tìm và xóa họ tên nhập từ bàn phím
+//  6.	Kết thúc
+
 package Lab5;
 
 import java.util.ArrayList;
@@ -21,6 +30,7 @@ public class Lab5_Bai2 {
 
 
         ArrayList<String> a = new ArrayList<>();
+
         System.out.print("Answer= ");
         Scanner in = new Scanner(System.in);
         int answer = in.nextInt();
@@ -90,16 +100,15 @@ public class Lab5_Bai2 {
         String nhap = in.nextLine();
         for (int i = 0; i < n; i++) {
             String x = a.get(i);
-            if (nhap == x) {
+            if (x.equals(nhap)) {
                 a.remove(x);
-                System.out.print(a.get(i) + ", ");
-                break;
             }
         }
 
         System.out.println("Danh sách moi: ");
         for (int i = 0; i < n; i++) {
-            System.out.print(a.get(i) + ", ");
+            String x = a.get(i);
+            System.out.print(x + ", ");
         }
     }
 

@@ -1,22 +1,25 @@
 package Lab7.Bai1;
 
-import java.util.Scanner;
-
 public class ChuNhat {
-    double rong;
-    double dai;
-    public ChuNhat(double rong, double dai){
-        this.rong = rong;
+    protected double dai;
+    protected double rong;
+
+    public ChuNhat(double dai, double rong){
         this.dai = dai;
+        this.rong = rong;
     }
-    double getChuVi(){
+
+    public ChuNhat() {
+    }
+
+    public double getChuVi(){
         return (dai+rong)*2;
     }
-    double getDienTich(){
+    public double getDienTich(){
         return dai*rong;
     }
-    void xuat(){
-        System.out.println("Chu vi: "+ getChuVi());
-        System.out.println("Dien tich: "+ getDienTich());
+    public void xuat(){
+        System.out.println("Chu vi = "+ getChuVi());
+        System.out.println("Dien tich = "+ getDienTich());
     }
 }

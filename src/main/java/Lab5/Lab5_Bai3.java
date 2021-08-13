@@ -1,6 +1,11 @@
-package Lab5;
 
-import Lab6.Bai2.SanPham;
+// Xây dựng ứng dụng quản lý sản phẩm (thông tin mỗi sản phẩm gồm tên và giá) theo menu sau
+//        1.	Nhập danh sách sản phẩm từ bàn phím
+//        2.	Sắp xếp giảm dần theo giá và xuất ra màn hình
+//        3.	Tìm và xóa sản phẩm theo tên nhập từ bàn phím
+//        4.	Xuất giá trung bình của các sản phẩm
+
+package Lab5;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,8 +13,9 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class Lab5_Bai3 {
-      public String name;
-       public double donGia;
+       public  String name;
+       public  double donGia;
+
     public static void main(String[] args) {
         menu();
     }
@@ -23,7 +29,7 @@ public class Lab5_Bai3 {
 
 
         ArrayList<Lab5_Bai3> list = new ArrayList<>();
-        Lab5_Bai3 x = new Lab5_Bai3();
+
         Scanner in = new Scanner(System.in);
 
         System.out.print("Answer= ");
@@ -48,15 +54,16 @@ public class Lab5_Bai3 {
     }
 
     public static void nhapDanhSach(int n, ArrayList<Lab5_Bai3> list) {
-        System.out.print("Nhap cac phan tu: ");
+        System.out.print("Enter de nhap cac phan tu ");
         Scanner in = new Scanner(System.in);
         for (int i = 0; i < n; i++) {
             in.nextLine();
-            SanPham x = new SanPham();
+            Lab5_Bai3 x = new Lab5_Bai3();
             System.out.print("Ten san pham: ");
             x.name = in.nextLine();
             System.out.print("Don gia: ");
             x.donGia = in.nextInt();
+            list.add(x);
         }
     }
 
@@ -64,11 +71,11 @@ public class Lab5_Bai3 {
             nhapDanhSach(n, list);
             Collections.sort(list, new Comparator<Lab5_Bai3>() {
                 @Override
-                public int compare(Lab5_Bai3 sp1, Lab5_Bai3 sp2) {
-                    if (sp1.donGia < sp2.donGia) {
+                public int compare(Lab5_Bai3 s1, Lab5_Bai3 s2) {
+                    if (s1.donGia < s2.donGia) {
                         return 1;
                     } else {
-                        if (sp1.donGia == sp2.donGia) {
+                        if (s1.donGia == s2.donGia) {
                             return 0;
                         } else {
                             return -1;
@@ -76,10 +83,9 @@ public class Lab5_Bai3 {
                     }
                 }
             });
-            Collections.reverse(list);
             System.out.println("Danh sách giam dan: ");
-            for (int i = 0; i < n; i++) {
-                System.out.print(list.get(i) + ", ");
+            for (int i = 0; i < list.size(); i++) {
+                System.out.println("Ten: " + list.get(i).name + ", Don gia: " + list.get(i).donGia);
             }
 
         }
@@ -91,16 +97,16 @@ public class Lab5_Bai3 {
         String nhap = in.nextLine();
         for (int i = 0; i < n; i++) {
             Lab5_Bai3 x = list.get(i);
-            if (x.name == nhap) {
+            if (x.name.equals(nhap)) {
                 list.remove(x);
-                System.out.print(list.get(i) + ", ");
-                break;
             }
+
         }
 
         System.out.println("Danh sách moi: ");
         for (int i = 0; i < n; i++) {
-            System.out.print(list.get(i) + ", ");
+            Lab5_Bai3 x = list.get(i);
+            System.out.println("Ten san pham: " + x.name+"," + " Don gia: " + x.donGia);
         }
     }
 
@@ -112,7 +118,7 @@ public class Lab5_Bai3 {
                 Lab5_Bai3 x = list.get(i);
                 sum+=x.donGia;
                 count++;
-                System.out.println(sum/count);
+                System.out.println("Trung binh= "+sum/count);
             }
         }
 
