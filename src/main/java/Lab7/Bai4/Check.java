@@ -20,7 +20,7 @@ public class Check {
     public static void menu() {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Nhap so luong sinh vien: ");
+        System.out.print("Nhap so luong sinh vien: ");
         int soLuong = in.nextInt();
 
         ArrayList<SinhVien> list = new ArrayList<>();
@@ -28,33 +28,33 @@ public class Check {
         for (int i = 0; i < soLuong; i++) {
 
             in.nextLine();
-            System.out.println("Nhap loai sinh vien: ");
+            System.out.print("\nNhap loai sinh vien: ");
             String loaiSV = in.nextLine();
             if (loaiSV.equals("IT")) {
 
-                System.out.println("Nhap ho va ten: ");
+                System.out.print("Nhap ho va ten: ");
                 String hoTen = in.nextLine();
 
-                System.out.println("Nhap diem java: ");
+                System.out.print("Nhap diem java: ");
                 double java = in.nextDouble();
 
-                System.out.println("Nhap diem html: ");
+                System.out.print("Nhap diem html: ");
                 double html = in.nextDouble();
 
-                System.out.println("Nhap diem css: ");
+                System.out.print("Nhap diem css: ");
                 double css = in.nextDouble();
 
                 SinhVien s1 = new SinhVienIT(java, html, css, hoTen, "IT");
                 list.add(s1);
 
             } else {
-                System.out.println("Nhap ho va ten: ");
+                System.out.print("Nhap ho va ten: ");
                 String hoTen = in.nextLine();
 
-                System.out.println("Nhap diem marketing: ");
+                System.out.print("Nhap diem marketing: ");
                 double marketing = in.nextDouble();
 
-                System.out.println("Nhap diem sales: ");
+                System.out.print("Nhap diem sales: ");
                 double sales = in.nextDouble();
 
                 SinhVien s2 = new SinhVienBiz(marketing, sales, hoTen, "Biz");
@@ -62,13 +62,13 @@ public class Check {
             }
         }
 
-        System.out.println("Danh sach sinh vien");
+        System.out.println("\n\tDanh sach sinh vien");
         xuatDanhSach(list);
 
-        System.out.println("\n\nSinh co hoc luc gioi");
+        System.out.println("\n\tSinh co hoc luc gioi");
         xuatHocLucGioi(list);
 
-        System.out.println("\n\nSinh vien duoc sap xep giam dan");
+        System.out.println("\n\tSinh vien duoc sap xep giam dan");
         xepDanhSach(list);
     }
 
@@ -85,7 +85,7 @@ public class Check {
             SinhVien sinhVien = list.get(i);
             String hocluc = sinhVien.getHocLuc();
             if (hocluc.equals("Gioi")) {
-                System.out.println("ho va ten: " + sinhVien.hoTen + "\tnganh: " + sinhVien.nganh);
+                System.out.println("Ho va ten: " + sinhVien.hoTen + "\tNganh: " + sinhVien.nganh);
             }
         }
     }

@@ -22,6 +22,6 @@ public class SinhVienIT extends SinhVien {
 
     protected void xuatThongTin() {
         SinhVienIT sinhVien = new SinhVienIT(java, html, css, hoTen, nganh);
-            System.out.println("ho va ten: " + sinhVien.hoTen + "\tnganh: " + sinhVien.nganh + "\tdiem java: " + sinhVien.java + "\tdiem html: " + sinhVien.html + "\tdiem css: " + sinhVien.css + "\tdiem trung binh: " + sinhVien.getDiem());
+            System.out.println("Ho va ten: " + sinhVien.hoTen + ", Nganh: " + sinhVien.nganh + ", Diem java: " + sinhVien.java + ", Diem html: " + sinhVien.html + ", Diem css: " + sinhVien.css + ", Diem trung binh: " + sinhVien.getDiem());
     }
 }

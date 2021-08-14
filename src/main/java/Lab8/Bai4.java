@@ -1,5 +1,7 @@
-package Lab8;
 
+// Viet chuong trinh su dung cac phuong thuc tien ich da xay dung trong lop XPoly o tren.
+
+package Lab8;
 
 import java.util.Scanner;
 

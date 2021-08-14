@@ -1,10 +1,16 @@
+
+//  Tao lop final co ten la XPoly va bo sung cac phuong thuc tinh va viet ma theo yeu
+//  cau cua cac bai sau day.
+
 package Lab8;
 
 import java.util.Scanner;
 
 public final class XPoly {
 
-    public static double sum (double...x){  // Bai 1
+    // Bai 1 : Them mot phuong thuc tinh co ten la sum() voi tham so bien doi kieu double.
+    // Viet ma cho phuong thuc nay de thuc hien tinh tong cac tham so truyen vao.
+    public static double sum (double...x){
         double s=0;
         for (int i = 0; i<x.length;i++){
             s+= x[i];
@@ -14,7 +20,8 @@ public final class XPoly {
     }
 
 
-    public static double min (double...x) { // Bai 2
+    // Bai 2:  Bo sung them 2 phuong thuc tinh de tim so lon nhat va nho nhat tu tham so bien doi
+    public static double min (double...x) {
         double mi = x[0];
         for (int i = 0; i<x.length;i++){
             if (x[i]<mi) mi = x[i];
@@ -23,8 +30,8 @@ public final class XPoly {
         return 0;
     }
 
-
-    public static double max (double...x) {   // Bai 2
+     // Bai 2
+    public static double max (double...x) {
         double ma = x[0];
         for (int i = 0; i<x.length;i++){
             if (x[i]>ma) ma = x[i];
@@ -34,7 +41,9 @@ public final class XPoly {
     }
 
 
-    public static void toUpper (){   // Bai 3
+     // Bai 3 :  Bo sung them 1 phuong thuc tinh toUpperFirstChar(String s)
+     // de chuyen doi cac ky tu dau tien cua moi tu sang ky tu hoa. Vi du: “nguyen van teo” se doi thanh “Nguyen Van Teo”.
+    public static void toUpper (){
         Scanner in = new Scanner(System.in);
         System.out.println("Nhap ten: ");
         String s = in.nextLine();
