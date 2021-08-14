@@ -1,8 +1,8 @@
 
-// Nâng cấp lớp SanPham bằng cách bổ sung public cho các đặt tả truy xuất cho phương thức xuat()
-//    và private cho getThueThuNhap(). Đồng thời bổ sung 2 hàm tạo,hàm tạo thứ nhất
-//    gồm 3 tham số là tên, giá và giảm giá, hàm tạo thứ 2 gồm 2 tham số là tên và giá (ngầm hiểu không giảm giá).
-// Viết chương trình tạo 2 sản phẩm có giảm giá và không giảm giá sau đó xuất thông tin 2 sản phẩm ra màn hình
+// Nang cap lop SanPham bang cach bo sung public cho cac dat ta truy xuat cho phuong thuc xuat()
+//    va private cho getThueThuNhap(). Dong thoi bo sung 2 ham tao,ham tao thu nhat
+//    gom 3 tham so la ten, gia va giam gia, ham tao thu 2 gom 2 tham so la ten va gia (ngam hieu khong giam gia).
+// Viet chuong trinh tao 2 san pham co giam gia va khong giam gia sau do xuat thong tin 2 san pham ra man hinh
 
 package Lab4.Bai3;
 

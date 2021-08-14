@@ -2,6 +2,7 @@ package Lab7.Bai3;
 
 public abstract class SinhVienPoly {
     protected String hoTen, nganh;
+
     public SinhVienPoly(String hoTen, String nganh){
         this.hoTen = hoTen;
         this.nganh = nganh;
@@ -11,6 +12,7 @@ public abstract class SinhVienPoly {
     }
 
     protected abstract double getDiem();
+
     public void getHocLuc(){
         if((getDiem()<0) && (getDiem()>10)) System.out.println("XIN HAY NHAP LAI");
         else{

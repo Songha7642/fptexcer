@@ -1,10 +1,10 @@
 
-//Tạo lớp SanPham gồm 3 thuộc tính là tên, giá và giảm giá. Lớp cũng gồm 2 phương thức là tính thuế nhập khẩu
-// (10% giá sản phẩm) và xuất thông tin ra màn hình. Thông tin xuất ra màn hình gồm:
-//  	Tên sản phẩm:
-//  	Đơn giá:
-//  	Giảm giá:
-//  	Thuế nhập khẩu:
+//Tao lop SanPham gom 3 thuoc tinh la ten, gia va giam gia. Lop cung gom 2 phuong thuc la tinh thue nhap khau
+// (10% gia san pham) va xuat thong tin ra man hinh. Thong tin xuat ra man hinh gom:
+//  	Ten san pham:
+//  	Don gia:
+//  	Giam gia:
+//  	Thue nhap khau:
 
 
 package Lab4.Bai1;

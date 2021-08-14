@@ -1,7 +1,7 @@
 
 
- // Viết chương trình cho phép nhập họ và tên sinh viên, điểm trung bình từ bàn
- // phím sau đó xuất ra màn hình với định dạng: <<họ và tên>> <<điểm>> điểm.
+ // Viet chuong trinh cho phep nhap ho va ten sinh vien, diem trung binh tu ban
+ // phim sau do xuat ra man hinh voi dinh dang: <<ho va ten>> <<diem>> diem.
 
 package Lab1;
 

@@ -1,12 +1,12 @@
 
-// Viết chương trình nhập 2 mảng họ tên và điểm của sinh viên.
-//      Xuất 2 mảng đã nhập, mỗi sinh viên có thêm học lực
-//        o	Yếu: điểm < 5
-//        o	Trung bình: 5 <= điểm < 6.5
-//        o Khá: 6.5 <= điểm < 7.5
-//        o	Giỏi: 7.5<= điểm < 9
-//        o	Xuất sắc: điểm >= 9
-//      Sắp xếp danh sách sinh viên đã nhập tăng dần theo điểm
+// Viet chuong trinh nhap 2 mang ho ten va diem cua sinh vien.
+//      Xuat 2 mang da nhap, moi sinh vien co them hoc luc
+//        o	Yeu: diem < 5
+//        o	Trung binh: 5 <= diem < 6.5
+//        o Kha: 6.5 <= diem < 7.5
+//        o	Gioi: 7.5<= diem < 9
+//        o	Xuat sac: diem >= 9
+//      Sap xep danh sach sinh vien da nhap tang dan theo diem
 
 
 package Lab3;

@@ -1,6 +1,6 @@
 
-// Nhập mảng 5 sinh viên (mỗi sinh viên gồm họ tên, email, số điện thoại, chứng minh nhân dân).
-// Kiểm tra và thông báo lỗi nếu nhập không đúng định dạng email, số điện thoại và CMND.
+// Nhap mang 5 sinh vien (moi sinh vien gom ho ten, email, so dien thoai, chung minh nhan dan).
+// Kiem tra va thong bao loi neu nhap khong dung dinh dang email, so dien thoai va CMND.
 
 package Lab6.Bai3;
 

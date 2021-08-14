@@ -1,11 +1,11 @@
 
-// Viết chương trình thực hiện các chức năng sau
-//  1.	Nhập danh sách họ và tên
-//  2.	Xuất danh sách vừa nhập
-//  3.	Xuất danh sách ngẫu nhiên
-//  4.	Sắp xếp giảm dần và xuất danh sách
-//  5.	Tìm và xóa họ tên nhập từ bàn phím
-//  6.	Kết thúc
+// Viet chuong trinh thuc hien cac chuc nang sau
+//  1.	Nhap danh sach ho va ten
+//  2.	Xuat danh sach vua nhap
+//  3.	Xuat danh sach ngau nhien
+//  4.	Sap xep giam dan va xuat danh sach
+//  5.	Tim va xoa ho ten nhap tu ban phim
+//  6.	Ket thuc
 
 package Lab5;
 

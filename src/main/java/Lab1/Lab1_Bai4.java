@@ -1,7 +1,6 @@
 
-// Viết chương trình nhập các hệ số của phương trình bậc 2.
-// Tính delta và xuất căn delta ra màn hình.
-
+// Viet chuong trinh nhap cac he so cua phuong trinh bac 2.
+// Tinh delta va xuat can delta ra man hinh.
 
 package Lab1;
 

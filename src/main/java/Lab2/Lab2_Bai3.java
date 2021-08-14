@@ -1,5 +1,5 @@
 
-// Viết chương trình nhập vào số điện sử dụng của tháng và tính tiền điện theo phương pháp lũy tiến
+// Viet chuong trinh nhap vao so dien su dung cua thang va tinh tien dien theo phuong phap luy tien
 
 package Lab2;
 

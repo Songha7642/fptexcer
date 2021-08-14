@@ -1,5 +1,5 @@
 
-//Viết chương trình xuất ra màn hình bảng cửu chương
+//Viet chuong trinh xuat ra man hinh bang cuu chuong
 
 package Lab3;
 

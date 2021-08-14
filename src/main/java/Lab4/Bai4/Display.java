@@ -1,7 +1,7 @@
 
-// Nâng cấp lớp SanPham bằng cách khai báo các trường dữ liệu với đặc tả truy xuất là private
-// để hạn chế truy xuất trực tiếp đến các trường này sau đó bổ sung các phương thức getter và setter
-// để đọc ghi dữ liệu các trường.
+// Nang cap lop SanPham bang cach khai bao cac truong du lieu voi dac ta truy xuat la private
+// de han che truy xuat truc tiep den cac truong nay sau do bo sung cac phuong thuc getter va setter
+// de doc ghi du lieu cac truong.
 
 package Lab4.Bai4;
 

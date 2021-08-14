@@ -1,9 +1,9 @@
 
-// Xây dựng ứng dụng quản lý sản phẩm (thông tin mỗi sản phẩm gồm tên và giá) theo menu sau
-//        1.	Nhập danh sách sản phẩm từ bàn phím
-//        2.	Sắp xếp giảm dần theo giá và xuất ra màn hình
-//        3.	Tìm và xóa sản phẩm theo tên nhập từ bàn phím
-//        4.	Xuất giá trung bình của các sản phẩm
+// Xay dung ung dung quan ly san pham (thong tin moi san pham gom ten va gia) theo menu sau
+//        1.	Nhap danh sach san pham tu ban phim
+//        2.	Sap xep giam dan theo gia va xuat ra man hinh
+//        3.	Tim va xoa san pham theo ten nhap tu ban phim
+//        4.	Xuat gia trung binh cua cac san pham
 
 package Lab5;
 

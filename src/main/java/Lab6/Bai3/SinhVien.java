@@ -8,7 +8,6 @@ public class SinhVien {
         public String email;
         public String soDienThoai;
         public String cmnd;
-        public boolean check = false;
 
         ArrayList<SinhVien> list = new ArrayList<>();
 
@@ -18,36 +17,29 @@ public class SinhVien {
             System.out.print("\n Ho va ten: ");
             x.name = in.nextLine();
 
-            System.out.print("Email: ");
-            do {
-                x.email = in.nextLine();
-                String reEmail = "\\w+@\\w+\\.\\w+";
-                if (!email.matches(reEmail)) {
-                    System.out.println("Khong dung dang email!");
-                }
-                else {check=true;}
-            }
-            while (check==false);
 
-            do {
+            System.out.print("Email: ");
+            x.email = in.nextLine();
+            String reEmail = "\\w+@\\w+(\\.\\w){1,2}";
+            if (!email.matches(reEmail)) {
+                System.out.println("Khong dung dang email!");
+            }
+
+
+            System.out.print("So dien thoai: ");
                 x.soDienThoai = in.nextLine();
                 String reSoDT = "0\\d{9,10}";
                 if (!soDienThoai.matches(reSoDT)) {
                     System.out.println("Khong dung dang so dien thoai!");
                 }
-                else {check=true;}
-            }
-            while (check==false);
 
-            do {
+
+            System.out.print("Chung minh nhan dan: ");
                 x.cmnd = in.nextLine();
                 String reCMND = "\\d{12}";
                 if (!cmnd.matches(reCMND)) {
                     System.out.println("Khong dung dang chung minh nhan dan!");
                 }
-                else {check=true;}
-            }
-            while (check==false);
 
             list.add(x);
         }

@@ -1,6 +1,6 @@
 
-// Nhập họ và tên từ bàn phím. Xuất tên, họ và tên đệm ra màn hình trong đó
-// tên và họ xuất IN HOA.
+// Nhap ho va ten tu ban phim. Xuat ten, ho va ten dem ra man hinh trong do
+// ten va ho xuat IN HOA.
 
 package Lab6;
 

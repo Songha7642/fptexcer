@@ -1,6 +1,8 @@
-package Lab7.Bai3;
+package Lab7.Bai4;
 
-public class SinhVienBiz extends SinhVienPoly {
+import Lab7.Bai3.SinhVienPoly;
+
+public class SinhVienBiz extends SinhVien {
     protected double marketing, sales;
 
     public SinhVienBiz(double marketing, double sales, String hoTen, String nganh) {

@@ -1,5 +1,5 @@
 
-// Nhập danh sách số thực với số lượng tùy ý từ bàn phím sau đó xuất danh sách vừa nhập và tổng của nó.
+// Nhap danh sach so thuc voi so luong tuy y tu ban phim sau do xuat danh sach vua nhap va tong cua no.
 
 package Lab5;
 

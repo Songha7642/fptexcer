@@ -19,7 +19,7 @@ public class ChuNhat {
         return dai*rong;
     }
     public void xuat(){
-        System.out.println("Chu vi = "+ getChuVi());
+        System.out.println("\nChu vi = "+ getChuVi());
         System.out.println("Dien tich = "+ getDienTich());
     }
 }

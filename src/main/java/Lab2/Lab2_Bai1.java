@@ -1,5 +1,5 @@
 
-// Viết chương trình cho phép giải phương trình bậc nhất trong đó các hệ số a và b nhập từ bàn phím
+// Viet chuong trinh cho phep giai phuong trinh bac nhat trong do cac he so a va b nhap tu ban phim
 
 package Lab2;
 

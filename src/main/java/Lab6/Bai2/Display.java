@@ -1,6 +1,6 @@
 
-// Nhập vào mảng 5 sản phẩm (mỗi sản phẩm gồm tên, giá và hãng).
-// Xuất thông tin các sản phẩm có hãng là Nokia.
+// Nhap vao mang 5 san pham (moi san pham gom ten, gia va hang).
+// Xuat thong tin cac san pham co hang la Nokia.
 
 package Lab6.Bai2;
 

@@ -1,6 +1,6 @@
 
-// Viết chương trình nhập một số nguyên từ bàn phím và cho biết số đó có phải là số nguyên tố hay không
-// (số nguyên tố là số chỉ chia hết cho 1 và chính nó).
+// Viet chuong trinh nhap mot so nguyen tu ban phim va cho biet so do co phai la so nguyen to hay khong
+// (so nguyen to la so chi chia het cho 1 va chinh no).
 
 package Lab3;
 

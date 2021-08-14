@@ -1,18 +1,19 @@
-package Lab7.Bai3;
+package Lab7.Bai4;
 
-public class SinhVienIT extends SinhVienPoly {
-    protected double java, htm, css;
+import Lab7.Bai3.SinhVienPoly;
+
+public class SinhVienIT extends SinhVien {
+    protected double java, html, css;
 
     public SinhVienIT(double java, double html, double css, String hoTen, String nganh) {
         super(hoTen, nganh);
 
         this.java = java;
-        this.htm = html;
+        this.html = html;
         this.css = css;
     }
     @Override
     protected double getDiem() {
-
-        return (2*java + htm +css)/4;
+        return (2*java + html +css)/4;
     }
 }

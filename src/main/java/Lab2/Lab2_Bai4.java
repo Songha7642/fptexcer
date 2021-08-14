@@ -1,6 +1,6 @@
 
-// Viết chương trình tổ chức 1 menu gồm 3 chức năng để gọi 3 bài trên
-// và một chức năng để thoát khỏi ứng dụng.
+// Viet chuong trinh to chuc 1 menu gom 3 chuc nang de goi 3 bai tren
+// va mot chuc nang de thoat khoi ung dung.
 
 package Lab2;
 

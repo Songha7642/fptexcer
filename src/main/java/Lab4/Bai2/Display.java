@@ -1,6 +1,6 @@
 
-// Viết chương trình tạo ra 2 sản phẩm thông tin được nhập từ bàn phím
-// sau đó gọi phương thức xuất để xuất thông tin 2 đối tượng sản phẩm đã tạo
+// Viet chuong trinh tao ra 2 san pham thong tin duoc nhap tu ban phim
+// sau do goi phuong thuc xuat de xuat thong tin 2 doi tuong san pham da tao
 
 
 package Lab4.Bai2;

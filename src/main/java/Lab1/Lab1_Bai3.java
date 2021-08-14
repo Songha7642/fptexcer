@@ -1,6 +1,6 @@
 
-// Viết chương trình nhập từ bàn phím cạnh của một khối lập phương.
-// Tính và xuất thể tích của khối chữ nhật
+// Viet chuong trinh nhap tu ban phim canh cua mot khoi lap phuong.
+// Tinh va xuat the tich cua khoi chu nhat
 
 
 package Lab1;

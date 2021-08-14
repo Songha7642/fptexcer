@@ -1,8 +1,8 @@
 
-// Viết chương trình nhập mảng số nguyên từ bàn phím.
-//     Sắp xếp và xuất mảng vừa nhập ra màn hình.
-// 	Xuất phần tử có giá trị nhỏ nhất ra màn hình
-// 	Tính và xuất ra màn hình trung bình cộng các phần tử chia hết cho 3
+// Viet chuong trinh nhap mang so nguyen tu ban phim.
+//     Sap xep va xuat mang vua nhap ra man hinh.
+// 	Xuat phan tu co gia tri nho nhat ra man hinh
+// 	Tinh va xuat ra man hinh trung binh cong cac phan tu chia het cho 3
 
 package Lab3;
 

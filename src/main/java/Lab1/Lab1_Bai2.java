@@ -1,11 +1,10 @@
-
-// Viết chương trình nhập từ bàn phím 2 cạnh của hình chữ nhật.
-// Tính và xuất chu vi, diện tích và cạnh nhỏ của hình chữ nhật.
-
-
 package Lab1;
 
 import java.util.Scanner;
+
+/*
+  Viet chuong trinh nhap tu ban phim 2 canh cua hinh chu nhat. Tinh va xuat chu vi, dien tich va canh nho cua hinh chu nhat.
+ */
 
 public class Lab1_Bai2 {
     public static void main (String[] args) {
