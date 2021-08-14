@@ -14,13 +14,14 @@ public abstract class SinhVienPoly {
     protected abstract double getDiem();
 
     public void getHocLuc(){
-        if((getDiem()<0) && (getDiem()>10)) System.out.println("XIN HAY NHAP LAI");
+        double diem = getDiem();
+        if((diem < 0) && (diem > 10)) System.out.println("XIN HAY NHAP LAI");
         else{
-            if(getDiem()<5) System.out.println("Yeu");
-            else if(getDiem()>=5&&getDiem()<6.5) System.out.println("Trung Binh");
-            else if(getDiem()>=6.5&&getDiem()<7.5) System.out.println("Kha");
-            else if(getDiem()>=7.5&&getDiem()<9) System.out.println("Gioi");
-            else if(getDiem()<=10) System.out.println("Xuat sac");
+            if(diem < 5) System.out.println("Yeu");
+            else if(diem >= 5 && diem < 6.5) System.out.println("Trung Binh");
+            else if(diem >= 6.5 && diem < 7.5) System.out.println("Kha");
+            else if(diem >= 7.5 && diem < 9) System.out.println("Gioi");
+            else if(diem <= 10) System.out.println("Xuat sac");
         }
     }
 }

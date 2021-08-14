@@ -22,6 +22,7 @@ public class Check {
 
         System.out.println("Nhap so luong sinh vien: ");
         int soLuong = in.nextInt();
+
         ArrayList<SinhVien> list = new ArrayList<>();
 
         for (int i = 0; i < soLuong; i++) {
@@ -61,13 +62,13 @@ public class Check {
             }
         }
 
-        System.out.println("danh sach sinh vien");
+        System.out.println("Danh sach sinh vien");
         xuatDanhSach(list);
 
-        System.out.println("\nsinh co hoc luc gioi");
+        System.out.println("\n\nSinh co hoc luc gioi");
         xuatHocLucGioi(list);
 
-        System.out.println("\nsinh vien duoc sap xep giam dan");
+        System.out.println("\n\nSinh vien duoc sap xep giam dan");
         xepDanhSach(list);
     }
 
@@ -75,17 +76,9 @@ public class Check {
     public static void xuatDanhSach (ArrayList<SinhVien> list) {
         for (int i=0; i<list.size(); i++) {
             SinhVien sinhVien = list.get(i);
-            if (sinhVien.nganh.equals("IT")) {
-                SinhVienIT sIt = (SinhVienIT) sinhVien;
-                System.out.println("ho va ten: " + sIt.hoTen + "\tnganh: " + sIt.nganh + "\tdiem java: " + sIt.java + "\tdiem html: " + sIt.html + "\tdiem css: " + sIt.css + "\tdiem trung binh: " + sIt.getDiem());
-            }
-            else {
-                SinhVienBiz sBiz = (SinhVienBiz) sinhVien;
-                System.out.println("ho va ten: " + sBiz.hoTen + "\tnganh: " + sBiz.nganh + "\tdiem java: " + sBiz.marketing + "\tdiem html: " + sBiz.sales + "\tdiem trung binh: " + sBiz.getDiem());
-            }
+           sinhVien.xuatThongTin();
         }
     }
-
 
     public static void xuatHocLucGioi (ArrayList<SinhVien> list) {
         for (int i = 0; i<list.size(); i++) {

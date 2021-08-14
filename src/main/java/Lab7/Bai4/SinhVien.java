@@ -10,6 +10,8 @@ public abstract class SinhVien {
 
     protected abstract double getDiem();
 
+    protected abstract void xuatThongTin();
+
     public String getHocLuc() {
         double diem = getDiem();
 

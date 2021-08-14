@@ -12,7 +12,6 @@ public class SinhVienIT extends SinhVienPoly {
     }
     @Override
     protected double getDiem() {
-
         return (2*java + htm +css)/4;
     }
 }
