@@ -8,9 +8,6 @@ public abstract class SinhVienPoly {
         this.nganh = nganh;
     }
 
-    protected SinhVienPoly() {
-    }
-
     protected abstract double getDiem();
 
     public void getHocLuc(){

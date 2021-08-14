@@ -5,7 +5,6 @@ public class SinhVienIT extends SinhVienPoly {
 
     public SinhVienIT(double java, double html, double css, String hoTen, String nganh) {
         super(hoTen, nganh);
-
         this.java = java;
         this.htm = html;
         this.css = css;
